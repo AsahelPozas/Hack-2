@@ -37,10 +37,27 @@ Dos contactos se consideran iguales si tienen el mismo nombre y apellido (sin di
 ```
 src/
 └── org.generation/
-    ├──Main.java        # Menú interactivo (UI consola)
-    ├──Agenda.java      # Lógica de negocio
-    ├──Contacto.java    # Modelo de datos
-    └──DatosIncompletosException.java  # Excepción personalizada para datos incompletos 
+    ├── Main.java  
+    │   # Punto de entrada de la aplicación.
+    │   # Contiene el menú interactivo en consola.
+    │
+    ├── Agenda.java  
+    │   # Lógica de negocio.
+    │   # Gestiona operaciones como agregar, buscar y eliminar contactos.
+    │
+    ├── Contacto.java  
+    │   # Modelo de datos.
+    │   # Representa la estructura de un contacto (nombre, teléfono, etc.).
+    │
+    └── exceptions/
+        ├── AgendaLlenaException.java  
+        │   # Se lanza cuando se intenta agregar un contacto y la agenda está llena.
+        │
+        ├── ContactoInexistenteException.java  
+        │   # Se lanza cuando no se encuentra un contacto solicitado.
+        │
+        └── DatosIncompletosException.java  
+            # Se lanza cuando faltan datos obligatorios al crear un contacto.
 ```
 
 ---
