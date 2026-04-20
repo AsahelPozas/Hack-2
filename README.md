@@ -67,7 +67,7 @@ src/
 * Java
 * IntelliJ IDEA
 * Programación Orientada a Objetos (POO)
-* Colecciones (`ArrayList`)
+* Colecciones
 
 ---
 
