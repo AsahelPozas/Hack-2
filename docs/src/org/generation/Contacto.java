@@ -1,5 +1,7 @@
 package org.generation;
 
+import org.generation.Exceptions.DatosIncompletosException;
+
 public class Contacto {
     private String nombre;
     private String apellido;
