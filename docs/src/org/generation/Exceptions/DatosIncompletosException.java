@@ -1,4 +1,4 @@
-package org.generation;
+package org.generation.Exceptions;
 
 public class DatosIncompletosException extends RuntimeException {
     public DatosIncompletosException() {
