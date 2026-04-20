@@ -76,10 +76,10 @@ src/
 1. Clonar el repositorio:
 
 ```
-git clone https://github.com/tu-usuario/agenda-telefonica.git
+git clone https://github.com/AsahelPozas/Hack-2.git
 ```
 
-2. Abrir el proyecto en IntelliJ IDEA
+2. Abrir el proyecto en IntelliJ
 
 3. Ejecutar:
 
@@ -101,17 +101,4 @@ git clone https://github.com/tu-usuario/agenda-telefonica.git
 7. Espacios disponibles
 0. Salir
 ```
-
----
-
-##  Buenas prácticas aplicadas
-
-* Uso de encapsulamiento (getters/setters)
-* Sobrescritura de `equals()`
-* Separación de responsabilidades (modelo, lógica, UI)
-* Uso de colecciones dinámicas (`ArrayList`)
-* Código limpio y legible
-* Ordenamiento con `Comparator`
-
----
 
