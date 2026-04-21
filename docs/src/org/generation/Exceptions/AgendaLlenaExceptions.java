@@ -1,6 +1,6 @@
 package org.generation.Exceptions;
 
 public class AgendaLlenaExceptions extends RuntimeException {
-    public AgendaLlenaExceptions() { super("Excediste la cantidad de contectos");
+    public AgendaLlenaExceptions() { super("Excediste la cantidad de contactos");
     }
 }
