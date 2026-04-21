@@ -42,7 +42,6 @@ src/
     │   # Contiene el menú interactivo en consola.
     │
     ├── Agenda.java  
-    │   # Lógica de negocio.
     │   # Gestiona operaciones como agregar, buscar y eliminar contactos.
     │
     ├── Contacto.java  
