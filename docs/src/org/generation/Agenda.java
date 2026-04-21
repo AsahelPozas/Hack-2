@@ -10,7 +10,7 @@ public class Agenda {
     private int tamaño;
 
     public Agenda () {
-        this.tamaño = 3;
+        this.tamaño = 10;
         this.agenda = new TreeSet<>(
                 (contacto1, contacto2) -> {
                     String nombre1 = contacto1.getNombre() + contacto1.getApellido();
